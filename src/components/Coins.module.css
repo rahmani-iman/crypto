@@ -1,0 +1,41 @@
+.coins {
+    text-align: center;
+    overflow-y: hidden;
+    margin-top: 5rem;
+  }
+  
+  .coins-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .coins-logo {
+      animation: coins-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .coins-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .coins-link {
+    color: #61dafb;
+  }
+  
+  @keyframes coins-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  

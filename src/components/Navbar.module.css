@@ -1,0 +1,38 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.5rem;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #cfcfcf;
+    position: fixed;
+    top: 0;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+}
+.logo img {
+    margin-right: 1rem;
+}
+.link {
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+}
+.link a {
+    text-decoration: none;
+    margin-left: 3rem;
+    padding: 0.5rem;
+    font-weight: bold;
+    color: #000;
+    transition: all 0.2s ease-in;
+}
+.link a:hover {
+    color: #6459ca;
+    border-bottom: 1px solid #000;
+    border-radius: 2px;
+    cursor: pointer;
+}
