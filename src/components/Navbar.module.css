@@ -31,7 +31,7 @@
     transition: all 0.2s ease-in;
 }
 .link a:hover {
-    color: #6459ca;
+    color: #8685b3;
     border-bottom: 1px solid #000;
     border-radius: 2px;
     cursor: pointer;

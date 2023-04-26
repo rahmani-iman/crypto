@@ -45,7 +45,7 @@ const Landing = () => {
                                 symbol={coin.symbol}
                                 price={coin.current_price}
                                 marketCap={coin.market_cap}
-                                priceChange={coin.price_change_percentage_24h}
+                                //priceChange={coin.price_change_percentage_24h}
                             />)
                         }
                     </div> :
