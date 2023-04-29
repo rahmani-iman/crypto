@@ -43,8 +43,14 @@
 }
 
 .container3 {
-    padding-top: 2rem;
-    padding-left: 1rem;
+    padding: 2rem 1rem;
     background: rgb(134,133,179);
     background: linear-gradient(40deg, rgba(134,133,179,1) 22%, rgba(249,249,249,1) 100%);
+}
+.chart {
+    width: 1000px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    opacity: 0.9;
 }

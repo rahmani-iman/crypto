@@ -1,9 +1,11 @@
 import React from 'react';
 
+//Components
+import Charts from './Charts';
+
 //Bgc images
 import coin from '../images/coin.png';
 import bitcoin from '../images/bitcoin.png';
-import bot from '../images/bot.png';
 
 //Style
 import style from './Homepage.module.css';
@@ -32,6 +34,9 @@ const HomePage = () => {
             </div>
         </div>
         <div className={style.container3}>
+            <div className={style.chart}>
+                <Charts />
+            </div>
         </div>
         </>
     );
