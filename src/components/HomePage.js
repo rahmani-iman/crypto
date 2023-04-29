@@ -2,6 +2,7 @@ import React from 'react';
 
 //Components
 import Charts from './Charts';
+import Exchange from './Exchange';
 
 //Bgc images
 import coin from '../images/coin.png';
@@ -36,6 +37,9 @@ const HomePage = () => {
         <div className={style.container3}>
             <div className={style.chart}>
                 <Charts />
+                <div>
+                   <Exchange />
+                </div>
             </div>
         </div>
         </>

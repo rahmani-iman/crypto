@@ -43,6 +43,9 @@
 }
 
 .container3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 2rem 1rem;
     background: rgb(134,133,179);
     background: linear-gradient(40deg, rgba(134,133,179,1) 22%, rgba(249,249,249,1) 100%);
