@@ -6,6 +6,7 @@ import { getCoin } from '../services/api';
 // Components
 import Loader from './Loader';
 import Coin from './Coin';
+import Footer from './Footer';
 
 // Styles
 import styles from "./Landing.module.css";
@@ -51,7 +52,8 @@ const Landing = () => {
                     </div> :
 
                     <Loader />
-            }
+                }
+                <Footer />
         </>
     );
 };
