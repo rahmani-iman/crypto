@@ -15,7 +15,7 @@ const Navbar = () => {
             <div className={styles.link}>
                 <Link to="/home">Home</Link>
                 <Link to="/coins">Coins</Link>
-                <Link>Sign up</Link>
+                <Link to="/signup">Sign up</Link>
             </div>
         </div>
     );
