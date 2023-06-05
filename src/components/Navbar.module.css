@@ -1,3 +1,7 @@
+.nav {
+    display: flex;
+    flex-direction: column;
+}
 .container {
     width: 100%;
     display: flex;
@@ -23,7 +27,7 @@
     align-items: center;
     margin-right: 2rem;
 }
-.link a {
+.link a , .sidebar a{
     text-decoration: none;
     margin-left: 3rem;
     padding: 0.5rem;
@@ -31,9 +35,43 @@
     color: #000;
     transition: all 0.2s ease-in;
 }
-.link a:hover {
+.link a:hover, .sidebar a:hover {
     color: #8685b3;
-    border-bottom: 1px solid #000;
-    border-radius: 2px;
     cursor: pointer;
+}
+.active {
+    display: none;
+}
+
+@media screen and (max-width : 960px) {
+    .hidden {
+        display: none;
+    }
+    .active {
+        display: flex;
+    }
+    .burger_icon{
+        margin-right: 2rem;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+    }
+    .sidebar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-top: -5rem;
+        padding-right: 2rem;
+        background-color: #f9f9f9;
+        box-shadow: 0px -5px 38px -21px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 0px -5px 38px -21px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px -5px 38px -21px rgba(0,0,0,0.75);
+        opacity: 0;
+        transition: all 0.4s ease-in-out;
+    }
+    .sidebar.smooth {
+        opacity: 1;
+        margin-top: 0;
+        padding-top: 5.5rem;
+        border: 1px solid #cfcfcf;
+    }
 }

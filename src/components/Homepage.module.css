@@ -16,6 +16,7 @@
 }
 .news_txt {
     width: 500px;
+    text-align: justify;
 }
 .news_txt button {
     width: 100px;
@@ -66,4 +67,37 @@
     width: 500px;
     border-radius: 5px;
     background-color: #fff;
+}
+
+@media screen and (max-width: 960px) {
+    .container {
+        padding-top: 8rem;
+    }
+    .news {
+        flex-direction: column;
+    }
+    .news_img {
+        margin-right: 0;
+        max-width: 100vw;
+    }
+    .news_txt {
+        width: fit-content;
+        padding: 0.1rem 1.3rem;
+    }
+    .container2 .news {
+        flex-direction: column-reverse;
+    }
+    .container2 .news_img {
+        margin-left: 0;
+    }
+    .container3 .currency{
+        flex-direction: column;
+    }
+    .chart {
+        width: 80%;
+        text-align: center;
+    }
+    .exchange {
+        margin-top: 2rem;
+    }
 }

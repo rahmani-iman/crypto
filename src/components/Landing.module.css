@@ -1,3 +1,6 @@
+body {
+  background-color: #f9f9f9;
+}
 .coinContainer {
   margin: 50px auto;
   border: 1px solid silver;
@@ -8,9 +11,9 @@
 
 .input {
   width: 300px;
-  margin-top: 50px;
   border: 1px solid silver;
   border-radius: 5px;
+  margin-top: 50px;
   height: 20px;
   padding: 5px;
   background-color: #f6f6f6;
@@ -22,4 +25,13 @@
   border-color: white;
   background: white;
   box-shadow: rgba(74, 74, 74, 0.24) 0px 3px 8px;
+}
+
+@media screen and (max-width: 960px) {
+  .coinContainer {
+    width: 90%;
+  }
+  .input {
+    margin-top: 0;
+  }
 }
